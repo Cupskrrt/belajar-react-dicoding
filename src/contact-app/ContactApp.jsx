@@ -23,7 +23,7 @@ class ContactApp extends React.Component {
     onAddContactHandler({ name, tag }){
       this.setState((prevState) => {
         return {
-          contacts : [
+          contacts: [
             ...prevState.contacts,
             {
               id: +new Date(),
